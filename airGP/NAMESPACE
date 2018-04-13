@@ -1,0 +1,18 @@
+useDynLib("airGP")
+
+# Export all functions listed below
+export(
+  airGP, airGP1v, tcol
+)
+
+S3method(predict, airGP)
+S3method(summary, airGP)
+
+# Import all packages listed as Imports or Depends
+import(stats, graphics, grDevices)
+importFrom(glmnet, cv.glmnet)
+importFrom(igraph, graph_from_adjacency_matrix)
+importFrom(igraph, layout.fruchterman.reingold)
+importFrom(igraph, plot.igraph)
+importFrom(igraph, E)
+import(ppls)

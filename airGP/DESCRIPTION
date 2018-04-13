@@ -1,0 +1,10 @@
+Package: airGP
+Version: 1.0-0.1
+Date: 2018-03-12
+Title: Additive Interactive Regression with Gaussian Processes
+Author: Surya Tokdar <tokdar@stat.duke.edu>
+Maintainer: Surya Tokdar <tokdar@stat.duke.edu>
+Depends: R (>= 2.6), stats, graphics, grDevices, ppls, glmnet
+Imports: igraph
+Description: Estimates high-dimensional nonparametric regression functions under a sparse, additive-interactive structural assumption by using an additive ensemble of Gaussian processes equipped with variable selection.
+License: GPL-2
